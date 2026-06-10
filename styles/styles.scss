@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Google Sans', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date-time {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+    h2 {
+        font-size: 15px;    
+        margin: 0;
+    }
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+
+    &:active {
+        color: blue;
+    }
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    background-color: white;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 5px 5px 10px 2px rgba($color: white, $alpha: 0.5);
+
+    h3 {
+        color: black;
+        margin: 0 0 1rem;
+    }
+}
